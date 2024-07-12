@@ -54,7 +54,6 @@ DB_NAME = environ.get("DB_NAME", "filestore12")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "HK_FILESTORE1_BOT") # your bot username without @
 PICS = (environ.get('PICS', 'https://mallucampaign.in/images/img_1720365232.jpg https://mallucampaign.in/images/img_1720365232.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
