@@ -28,6 +28,14 @@ def is_enabled(value, default):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ0
+
+from os import environ
+
+API = environ.get("API", "5a46477839bb186f9d168d34295a0db50eae2f05") # shortlink api
+URL = environ.get("URL", "vipurl.in") # shortlink domain without https://
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+BOT_USERNAME = environ.get("BOT_USERNAME", "HK_FILESTORE1_BOT") # bot username without @
+VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
       
 # Owner Information
 API_ID = int(environ.get("API_ID", "24798261"))
