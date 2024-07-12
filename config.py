@@ -31,7 +31,7 @@ def is_enabled(value, default):
 
 API = environ.get("API", "49e836a49e2662195606e80119e468680ae90edf") # shortlink api
 URL = environ.get("URL", "atglinks.com") # shortlink domain without https://
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "") # how to open link 
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/c/2198096570/146") # how to open link 
 BOT_USERNAME = environ.get("BOT_USERNAME", "HK_FILESTORE1_BOT") # bot username without @
 VERIFY = environ.get("VERIFY", "True") # set True Or False and make sure spelling is correct and first letter capital.
       
